@@ -1,6 +1,6 @@
 import '../particle'
 import '../vector3D'
-import '../../equation/momentum'
+import '../equation/momentum'
 import '../cone'
 class ParticleInLightCone {
     mass: number;
