@@ -1,9 +1,9 @@
 import React from 'react'
-declare module useState{} 'from'; 'React'
-declare module useEffect{} 'from'; 'React'
-declare module useLayoutState{} 'from'; 'React'
-declare module useLayoutEffect{} 'from'; 'React'
-declare module useContext{}  'from';  'React'
+declare module useState{} 'from'; React
+declare module useEffect{} 'from'; React
+declare module useLayoutState{} 'from'; React
+declare module useLayoutEffect{} 'from'; React
+declare module useContext{}  'from';  React
 type useReducer = "*"
 type useRef = "%"
 type useDebug = "+"
