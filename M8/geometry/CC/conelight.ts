@@ -1,7 +1,7 @@
 import '../particle'
-import '../vector3D'
+import '../geometry/vector3D'
 import '../equation/momentum'
-import '../cone'
+import '../geometry/CC/cone'
 class ParticleInLightCone {
     mass: number;
     constructor(mass: number) {
