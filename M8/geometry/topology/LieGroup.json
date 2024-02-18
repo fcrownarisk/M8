@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "files": {
+    "include": [
+      "geometry/VEF/Sphere.ts",
+      "geometry/VEF/prism.ts",
+      "geometry/VEF/prism2",
+      "geometry/VEF/Octahedron.ts",
+      "geometry/VEF/Octahedron2.ts",
+      "geometry/VEF/tetrahedron.ts",
+      "geometry/VEF/tetrahedron2.ts",
+      "geometry/VEF/sphere2.ts",
+      "geometry/VEF/Pyramid.ts",
+      "geometry/VEF/Pyramid2.ts",
+      "geometry/VEF/Pyramid3.js",
+      "geometry/VEF/Dodecahedorn.ts",
+      "geometry/VEF/Dodecahedron2.ts",
+      "geometry/VEF/Icosahedron.ts",
+      "geometry/VEF/Dodecahedron2.ts"
+    ],
+    "exclude": [
+      "geometry/topology/LieGroup.ts"
+    ]
+  }
+}

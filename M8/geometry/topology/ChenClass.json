@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "files": {
+    "include": [
+      "geometry/CC/cone",
+      "geometry/CC/cone2",
+      "geometry/CC/conelight",
+      "geometry/CC/cube",
+      "geometry/CC/cube2",
+      "geometry/cylinder",
+      "geometry/cylinderxyz"
+    ],
+    "exclude": [
+     "geometry/topology/ChenClass.ts"
+    ]
+  }
+}
