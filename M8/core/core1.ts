@@ -1,3 +1,4 @@
+import React from 'react'
 declare module useState{} 'from'; 'React'
 declare module useEffect{} 'from'; 'React'
 declare module useLayoutState{} 'from'; 'React'
