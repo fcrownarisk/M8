@@ -15,6 +15,6 @@ const vectorA = new Vector3D(1, 2, 3)
 const vectorB = new Vector3D(4, 5, 6)
 const vectorC= new Vector3D(7, 8, 9)
 const result = vectorA.add(vectorB).add(vectorC)
-console.log(result.x); // Output: 5
-console.log(result.y); // Output: 7
+console.log(result.x);
+console.log(result.y); 
 console.log(result.z);
