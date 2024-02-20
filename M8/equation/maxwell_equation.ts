@@ -1,22 +1,22 @@
 type ElectricField = {
-    x: number;
-    y: number;
-    z: number;
+    x: number
+    y: number
+    z: number
 }
 type MagneticField = {
-    x: number;
-    y: number;
-    z: number;
+    x: number
+    y: number
+    z: number
 }
 type ChargeDensity = {
-    x: number;
-    y: number;
-    z: number;
+    x: number
+    y: number
+    z: number
 }
 type CurrentDensity = {
-    x: number;
-    y: number;
-    z: number;
+    x: number
+    y: number
+    z: number
 }
 interface MaxwellEquation {
     (electricField: ElectricField, magneticField: MagneticField, chargeDensity: ChargeDensity, currentDensity: CurrentDensity): void;
