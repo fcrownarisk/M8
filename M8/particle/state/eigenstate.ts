@@ -1,30 +1,30 @@
-interface PhysicalQuantity {
-    value: number; // 物理量的值
-    unit: string;   // 物理量的单位
+interface Quantity {
+    value: number; 
+    unit: string;  
 }
 class QuantumState {
     label: string;
-    physicalQuantity: PhysicalQuantity;
-    constructor(label: string, physicalQuantity: PhysicalQuantity) {
+    physicalQuantity: Quantity;
+    constructor(label: string, Quantity: Quantity) {
         this.label = label;
-        this.physicalQuantity = physicalQuantity;
+        this.Quantity = Quantity;
     }
-    measure(): PhysicalQuantity {
-        return this.physicalQuantity;
+    measure(): Quantity {
+        return this.Quantity;
     }
 }
 
 class Eigenstate extends QuantumState {
 
     eigenvalue: number;
-    constructor(label: string, physicalQuantity: PhysicalQuantity, eigenvalue: number) {
-        super(label, physicalQuantity);
+    constructor(label: string, Quantity: Quantity, eigenvalue: number) {
+        super(label, Quantity);
         this.eigenvalue = eigenvalue;
     }
-    measure(): PhysicalQuantity {
+    measure(): Quantity {
         return {
             value: this.eigenvalue,
-            unit: this.physicalQuantity.unit
+            unit: this.Quantity.unit
         };
     }
 }
